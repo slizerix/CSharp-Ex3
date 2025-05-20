@@ -1,12 +1,309 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Ex01 Shalev 322582008 Dima 322810060\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\garagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\garagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\vehicleingarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehicleingarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\electricenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\electricenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\energysource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\energysource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\fuelenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\fuelenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\fueltruck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\fueltruck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C81953A-82E9-4B99-9D7D-EE94958E809E}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|c:\\users\\user\\source\\repos\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.consoleui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C81953A-82E9-4B99-9D7D-EE94958E809E}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|solutionrelative:ex03.consoleui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleInGarage.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\VehicleInGarage.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\VehicleInGarage.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\VehicleInGarage.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\VehicleInGarage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:39:29.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ElectricEnergy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricEnergy.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricEnergy.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricEnergy.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricEnergy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:33:39.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FuelEnergy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelEnergy.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\FuelEnergy.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelEnergy.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\FuelEnergy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:31:10.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnergySource.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\EnergySource.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\EnergySource.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\EnergySource.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\EnergySource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:27:25.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Utils.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Utils.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Utils.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Utils.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:22:07.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FuelTruck.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelTruck.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\FuelTruck.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelTruck.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\FuelTruck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:15:51.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FuelMotorCycle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelMotorCycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\FuelMotorCycle.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelMotorCycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\FuelMotorCycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:56:43.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ElectricMotorCycle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricMotorCycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricMotorCycle.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricMotorCycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricMotorCycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:56:28.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuelCar.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelCar.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\FuelCar.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelCar.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\FuelCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:55:52.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ElectricCar.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricCar.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricCar.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricCar.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:55:36.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Wheel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Wheel.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Wheel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Wheel.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Wheel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:45:57.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.ConsoleUI\\UIManager.cs",
+              "RelativeDocumentMoniker": "Ex03.ConsoleUI\\UIManager.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.ConsoleUI\\UIManager.cs",
+              "RelativeToolTip": "Ex03.ConsoleUI\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:42:21.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Truck.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Truck.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Truck.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Truck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:42:03.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GarageManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\GarageManager.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\GarageManager.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\GarageManager.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\GarageManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:41:14.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MotorCycle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\MotorCycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\MotorCycle.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\MotorCycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\MotorCycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:40:53.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Car.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Car.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Car.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Car.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:39:52.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Vehicle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:39:28.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>Ex03.GarageLogic</RootNamespace>
     <AssemblyName>Ex03.GarageLogic</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -32,8 +32,29 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="ElectricCar.cs" />
+    <Compile Include="ElectricEnergy.cs" />
+    <Compile Include="ElectricMotorCycle.cs" />
+    <Compile Include="EnergySource.cs" />
+    <Compile Include="FuelCar.cs" />
+    <Compile Include="FuelEnergy.cs" />
+    <Compile Include="FuelMotorCycle.cs" />
+    <Compile Include="FuelTruck.cs" />
+    <Compile Include="GarageManager.cs" />
+    <Compile Include="MotorCycle.cs" />
+    <Compile Include="Truck.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="VehicleInGarage.cs" />
+    <Compile Include="Wheel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
