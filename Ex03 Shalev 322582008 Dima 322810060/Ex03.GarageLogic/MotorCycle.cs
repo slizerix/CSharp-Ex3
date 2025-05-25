@@ -9,7 +9,11 @@ namespace Ex03.GarageLogic
 {
     public abstract class Motorcycle : Vehicle
     {
+        protected Motorcycle(string i_LicenseID, string i_ModelName) : base(i_LicenseID, i_ModelName)
+        {
+        }
         public LicenseType LicenseType { get; set; }
         public int EngineVolume { get; set; }
+
     }
 }

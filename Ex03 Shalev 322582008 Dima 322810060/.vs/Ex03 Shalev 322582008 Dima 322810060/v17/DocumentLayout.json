@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ex03.GarageLogic\\FuelCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\EnergySource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ex03.GarageLogic\\EnergySource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricMotorCycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ex03.GarageLogic\\ElectricMotorCycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricEnergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ex03.GarageLogic\\ElectricEnergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ex03.GarageLogic\\ElectricCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ex03.GarageLogic\\Car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FuelCar.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelCar.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\FuelCar.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\FuelCar.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\FuelCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:11:24.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnergySource.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\EnergySource.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\EnergySource.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\EnergySource.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\EnergySource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:11:22.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ElectricEnergy.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricEnergy.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricEnergy.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricEnergy.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricEnergy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:11:17.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ElectricMotorCycle.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricMotorCycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricMotorCycle.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricMotorCycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricMotorCycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:11:14.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ElectricCar.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricCar.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricCar.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricCar.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:11:13.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Car.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Car.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Car.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:11:11.592Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

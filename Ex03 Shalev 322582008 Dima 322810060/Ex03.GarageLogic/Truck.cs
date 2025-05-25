@@ -11,12 +11,21 @@ namespace Ex03.GarageLogic
     {
         public bool CarriesHazardousMaterials { get; set; }
         public float CargoVolume { get; set; }
-
-        public Truck()
+        public float CurrentAmount { get; set; }
+        public float MaxAmount { get; set; }
+        public FuelType FuelType { get; private set; }
+        public void Refuel(float i_Amount, FuelType i_Type)
         {
-            EnergySource = new FuelEnergy(FuelType.Soler, 135f);
-        }
+            if (i_Type != FuelType)
+                throw new ArgumentException("Incorrect fuel type.");
+            if (CurrentAmount + i_Amount > MaxAmount)
+                throw new ValueOutOfRangeException(0, MaxAmount - CurrentAmount, "Fuel exceeds tank capacity.");
 
-        public override string GetSpecificDetails() => $"Truck: Hazardous={CarriesHazardousMaterials}, Cargo={CargoVolume}m^3";
+            CurrentAmount += i_Amount;
+        }
+        public float EnergyPercentage()
+        {
+            return (CurrentAmount / MaxAmount) * 100;
+        }
     }
 }

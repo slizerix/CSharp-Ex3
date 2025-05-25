@@ -10,9 +10,12 @@ namespace Ex03.GarageLogic
     {
         public string ModelName { get; set; }
         public string LicenseNumber { get; set; }
-        public List<Wheel> Wheels { get; set; }
-        public EnergySource EnergySource { get; set; }
+        public List<Wheel> Wheels = new List<Wheel>();
 
-        public abstract string GetSpecificDetails();
+        public Vehicle(string i_LicenseID, string i_ModelName)
+        {
+            LicenseNumber = i_LicenseID;
+            ModelName = i_ModelName;
+        }
     }
 }

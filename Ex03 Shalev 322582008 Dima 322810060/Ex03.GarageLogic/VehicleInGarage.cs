@@ -13,7 +13,6 @@ namespace Ex03.GarageLogic
         public string OwnerName { get; }
         public string OwnerPhone { get; }
         public VehicleStatus Status { get; set; }
-
         public VehicleInGarage(Vehicle i_Vehicle, string i_OwnerName, string i_OwnerPhone)
         {
             Vehicle = i_Vehicle;

@@ -9,7 +9,21 @@ namespace Ex03.GarageLogic
 {
     public class FuelCar : Car
     {
-        public FuelCar() => EnergySource = new FuelEnergy(FuelType.Octan95, 48f);
-        public override string GetSpecificDetails() => $"Fuel Car: {Color}, {NumOfDoors} doors";
+        public float CurrentAmount { get; set; }
+        public float MaxAmount { get; set; }
+        public FuelType FuelType { get; private set; }
+        public void Refuel(float i_Amount, FuelType i_Type)
+        {
+            if (i_Type != FuelType)
+                throw new ArgumentException("Incorrect fuel type.");
+            if (CurrentAmount + i_Amount > MaxAmount)
+                throw new ValueOutOfRangeException(0, MaxAmount - CurrentAmount, "Fuel exceeds tank capacity.");
+
+            CurrentAmount += i_Amount;
+        }
+        public float EnergyPercentage()
+        {
+            return (CurrentAmount / MaxAmount) * 100;
+        }
     }
 }
