@@ -9,6 +9,10 @@ namespace Ex03.GarageLogic
 {
     public class ElectricCar : Car
     {
+        public ElectricCar(string i_LicenseID, string i_ModelName) : base(i_LicenseID, i_ModelName)
+        {
+        }
+
         public float CurrentAmount { get; set; }
 
         public float MaxAmount { get; set; }

@@ -29,23 +29,70 @@ namespace Ex03.GarageLogic
 
                 string[] partsOfLine = line.Split(',');
 
-                string VehicleType = partsOfLine[0];
-                string LicensePlate = partsOfLine[1];
-                string ModelName = partsOfLine[2];
-                int EnergyPercentage = int.Parse(partsOfLine[3]);
-                string TierModel = partsOfLine[4];
-                int CurrAirPressure = int.Parse(partsOfLine[5]);
-                string OwnerName = partsOfLine[6];
-                string OwnerPhone = partsOfLine[7];
+                string vehicleType = partsOfLine[0];
+                string licensePlate = partsOfLine[1];
+                string modelName = partsOfLine[2];
+                float energyAmount = float.Parse(partsOfLine[3]);
+                string wheelsManufacturer = partsOfLine[4];
+                float currentAirPressure = float.Parse(partsOfLine[5]);
+                string ownerName = partsOfLine[6];
+                string ownerPhone = partsOfLine[7];
 
+                // Create and insert the basic vehicle
+                CreateAndInsertVehicle(vehicleType, licensePlate, modelName, ownerName, ownerPhone);
 
-                CreateAndInsertVehicle(VehicleType, LicensePlate, ModelName, OwnerName, OwnerPhone);
+                // Fill in the rest of the details
+                switch (vehicleType)
+                {
+                    case "FuelCar":
+                    case "ElectricCar":
+                        string color = partsOfLine[8];
+                        int numOfDoors = int.Parse(partsOfLine[9]);
+                        InitializeVehicleDetails(licensePlate, currentAirPressure, wheelsManufacturer,
+                            energyAmount, color, numOfDoors);
+                        break;
+
+                    case "FuelMotorcycle":
+                    case "ElectricMotorcycle":
+                        string licenseType = partsOfLine[8];
+                        int engineCapacity = int.Parse(partsOfLine[9]);
+                        InitializeVehicleDetails(licensePlate, currentAirPressure, wheelsManufacturer,
+                            energyAmount, licenseType, engineCapacity);
+                        break;
+
+                    case "Truck":
+                        bool isHazardous = partsOfLine[8] == "1";
+                        string cargoVolume = partsOfLine[9];
+                        InitializeVehicleDetails(licensePlate, currentAirPressure, wheelsManufacturer,
+                            energyAmount, cargoVolume, isHazardous ? 1 : 0);
+                        break;
+                }
             }
         }
 
+        public void InitializeVehicleDetails(string licensePlate, float currentAirPressure, string wheelsManufacturer,
+                                     float energyAmount, string colorOrCargoOrLicenseType, int doorsOrEngineCapacityOrIsHazardous)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+            {
+                throw new ArgumentException("Vehicle does not exist in the garage.");
+            }
+
+            VehicleInGarage vehicleInGarage = r_Vehicles[licensePlate];
+            Vehicle vehicle = vehicleInGarage.Vehicle;
+
+            
+            foreach (Wheel wheel in vehicle.Wheels)
+            {
+                wheel.CurrentAirPressure = currentAirPressure;
+                wheel.Manufacturer = wheelsManufacturer;
+            }
+  
+        }
+
+
         public void UpdateVehicleStatus(string licensePlate, VehicleStatus newStatus)
         {
-            /////////////////////////////////////////////////////////////////////////////
             if (!r_Vehicles.ContainsKey(licensePlate))
             {
                 throw new KeyNotFoundException("Vehicle not found in garage.");
@@ -54,26 +101,60 @@ namespace Ex03.GarageLogic
         }
 
 
-        public List<string> GetLicensePlates(VehicleStatus filter)
+        public List<string> GetLicensePlates(VehicleStatus? filter)
         {
-            /////////////////////////////////////////////////////////////////////////////////////
             List<string> licensePlates = new List<string>();
+
             foreach (KeyValuePair<string, VehicleInGarage> entry in r_Vehicles)
             {
-                if (string.IsNullOrEmpty(filter) || entry.Value.Vehicle.LicenseNumber.Contains(filter))
+                if (!filter.HasValue || entry.Value.Status == filter.Value)
                 {
                     licensePlates.Add(entry.Key);
                 }
             }
+
             return licensePlates;
         }
-        public void CreateAndInsertVehicle(string VehicleType, string LicensePlate, string ModelName, string OwnerName, string OwnerPhone)
+
+        public void CreateAndInsertVehicle(string vehicleType, string licensePlate, string modelName, string ownerName, string ownerPhone)
         {
-            Vehicle newVehicle = CreateVehicle(VehicleType, LicensePlate, ModelName);
-            VehicleInGarage vehicleInGarage = new VehicleInGarage(newVehicle, OwnerName, OwnerPhone);
-            if (r_Vehicles.ContainsKey(LicensePlate) == false)
+            Vehicle newVehicle = CreateVehicle(vehicleType, licensePlate, modelName);
+
+            // Determine number of wheels
+            int numOfWheels = 0;
+            float maxAirPressure = 0;
+
+            switch (vehicleType)
             {
-                r_Vehicles[LicensePlate] = vehicleInGarage;
+                case "FuelCar":
+                case "ElectricCar":
+                    numOfWheels = 5;
+                    maxAirPressure = 32;
+                    break;
+                case "FuelMotorcycle":
+                case "ElectricMotorcycle":
+                    numOfWheels = 2;
+                    maxAirPressure = 30;
+                    break;
+                case "Truck":
+                    numOfWheels = 12;
+                    maxAirPressure = 27;
+                    break;
+            }
+
+            // Initialize wheels with default values (will be updated later)
+            List<Wheel> wheels = new List<Wheel>();
+            for (int i = 0; i < numOfWheels; i++)
+            {
+                wheels.Add(new Wheel("Unknown", 0, maxAirPressure));
+            }
+
+            newVehicle.Wheels = wheels;
+
+            VehicleInGarage vehicleInGarage = new VehicleInGarage(newVehicle, ownerName, ownerPhone);
+            if (!r_Vehicles.ContainsKey(licensePlate))
+            {
+                r_Vehicles[licensePlate] = vehicleInGarage;
             }
         }
 
@@ -113,6 +194,81 @@ namespace Ex03.GarageLogic
 
             return licenseNumbers;
         }
+
+        public void InflateTiresToMax(string licensePlate)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+                throw new KeyNotFoundException("Vehicle not found.");
+
+            Vehicle vehicle = r_Vehicles[licensePlate].Vehicle;
+            foreach (Wheel wheel in vehicle.Wheels)
+            {
+                wheel.CurrentAirPressure = wheel.MaxAirPressure;
+            }
+        }
+
+        public string GetVehicleDetails(string licensePlate)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+                throw new KeyNotFoundException("Vehicle not found.");
+
+            VehicleInGarage vehicleInGarage = r_Vehicles[licensePlate];
+            StringBuilder detailsBuilder = new StringBuilder();
+            detailsBuilder.AppendLine($"Owner: {vehicleInGarage.OwnerName}");
+            detailsBuilder.AppendLine($"Phone: {vehicleInGarage.OwnerPhone}");
+            detailsBuilder.AppendLine($"Status: {vehicleInGarage.Status}");
+            detailsBuilder.AppendLine(vehicleInGarage.Vehicle.ToString());
+            return detailsBuilder.ToString();
+        }
+
+        public void RefuelVehicle(string licensePlate, FuelType fuelType, float litersToAdd)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+                throw new KeyNotFoundException("Vehicle not found.");
+
+            Vehicle vehicle = r_Vehicles[licensePlate].Vehicle;
+
+            if (vehicle is FuelCar fuelCar)
+            {
+                fuelCar.Refuel(litersToAdd, fuelType);
+            }
+            else if (vehicle is FuelMotorcycle fuelMotorcycle)
+            {
+                fuelMotorcycle.Refuel(litersToAdd, fuelType);
+            }
+            else if (vehicle is Truck truck)
+            {
+                truck.Refuel(litersToAdd, fuelType);
+            }
+            else
+            {
+                throw new InvalidOperationException("This vehicle does not support refueling.");
+            }
+        }
+
+        public void RechargeBattery(string licensePlate, float minutesToAdd)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+                throw new KeyNotFoundException("Vehicle not found.");
+
+            Vehicle vehicle = r_Vehicles[licensePlate].Vehicle;
+
+            float hoursToAdd = minutesToAdd / 60f;
+
+            if (vehicle is ElectricCar electricCar)
+            {
+                electricCar.Recharge(hoursToAdd);
+            }
+            else if (vehicle is ElectricMotorcycle electricMotorcycle)
+            {
+                electricMotorcycle.Recharge(hoursToAdd);
+            }
+            else
+            {
+                throw new InvalidOperationException("This vehicle does not have a battery to recharge.");
+            }
+        }
+
 
     }
 }

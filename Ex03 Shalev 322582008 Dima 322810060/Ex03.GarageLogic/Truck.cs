@@ -9,6 +9,10 @@ namespace Ex03.GarageLogic
 {
     public class Truck : Vehicle
     {
+        public Truck(string i_LicenseID, string i_ModelName) : base(i_LicenseID, i_ModelName)
+        {
+        }
+
         public bool CarriesHazardousMaterials { get; set; }
         public float CargoVolume { get; set; }
         public float CurrentAmount { get; set; }

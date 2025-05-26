@@ -9,6 +9,10 @@ namespace Ex03.GarageLogic
 {
     public class FuelMotorcycle : Motorcycle
     {
+        public FuelMotorcycle(string i_LicenseID, string i_ModelName) : base(i_LicenseID, i_ModelName)
+        {
+        }
+
         public float CurrentAmount { get; set; }
         public float MaxAmount { get; set; }
         public FuelType FuelType { get; private set; }

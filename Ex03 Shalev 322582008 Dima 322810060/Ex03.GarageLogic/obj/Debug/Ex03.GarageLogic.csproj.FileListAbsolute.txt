@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.GarageLogic\bin\Debug\Ex03.GarageLogic.dll.config
+C:\Users\user\source\repos\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.GarageLogic\bin\Debug\Ex03.GarageLogic.dll
+C:\Users\user\source\repos\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.GarageLogic\bin\Debug\Ex03.GarageLogic.pdb
+C:\Users\user\source\repos\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.dll
+C:\Users\user\source\repos\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.GarageLogic\obj\Debug\Ex03.GarageLogic.pdb

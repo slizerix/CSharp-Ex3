@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Ex03.GarageLogic;
+using static Ex03.GarageLogic.Utils;
 
 namespace Ex03.ConsoleUI
 {
@@ -18,7 +19,7 @@ namespace Ex03.ConsoleUI
         {
             bool shouldExit = false;
 
-            while (shouldExit == true)
+            while (shouldExit == false)
             {
                 ShowMainMenu();
                 string userChoice = Console.ReadLine();
@@ -124,9 +125,30 @@ namespace Ex03.ConsoleUI
 
         private void ShowLicensePlates()
         {
-            Console.Write("Enter 0 for All, 1 for InReapair, 2 for Repaired, 3 for Paid");
-            int filter = int.Parse(Console.ReadLine());
-            //////////////////////////////////////////////////////////////////////////////////////
+            Console.Write("Enter 0 for All, 1 for InRepair, 2 for Repaired, 3 for Paid: ");
+            string input = Console.ReadLine();
+
+            VehicleStatus? filter = null;
+            switch (input)
+            {
+                case "0":
+                    filter = null; // All statuses
+                    break;
+                case "1":
+                    filter = VehicleStatus.InRepair;
+                    break;
+                case "2":
+                    filter = VehicleStatus.Repaired;
+                    break;
+                case "3":
+                    filter = VehicleStatus.Paid;
+                    break;
+                default:
+                    Console.WriteLine("Invalid filter. Showing all vehicles.");
+                    filter = null;
+                    break;
+            }
+
             List<string> plates = r_GarageManager.GetLicensePlates(filter);
             Console.WriteLine("--- License Plates ---");
             foreach (string plate in plates)
@@ -141,8 +163,14 @@ namespace Ex03.ConsoleUI
             string licensePlate = Console.ReadLine();
 
             Console.Write("Enter new status (InRepair, Repaired, Paid): ");
-            string newStatus = Console.ReadLine();
-            ///////////////////////////////////////////////////////////////////////////////////////
+            string newStatusInput = Console.ReadLine();
+
+            if (!Enum.TryParse(newStatusInput, out VehicleStatus newStatus))
+            {
+                Console.WriteLine("Invalid status.");
+                return;
+            }
+
             r_GarageManager.UpdateVehicleStatus(licensePlate, newStatus);
             Console.WriteLine("Vehicle status updated.");
         }
@@ -154,7 +182,7 @@ namespace Ex03.ConsoleUI
             string licensePlate = Console.ReadLine();
 
             r_GarageManager.InflateTiresToMax(licensePlate);
-            //////////////////////////////////////////////////////////////////////////////////
+
             Console.WriteLine("Tires inflated.");
         }
 
@@ -164,13 +192,18 @@ namespace Ex03.ConsoleUI
             string licensePlate = Console.ReadLine();
 
             Console.Write("Enter fuel type (Octan95, Octan96, Octan98, Soler): ");
-            string fuelType = Console.ReadLine();
+            string fuelTypeInput = Console.ReadLine();
+
+            if (!Enum.TryParse(fuelTypeInput, out FuelType fuelType))
+            {
+                Console.WriteLine("Invalid fuel type.");
+                return;
+            }
 
             Console.Write("Enter amount of liters: ");
             float liters = float.Parse(Console.ReadLine());
 
             r_GarageManager.RefuelVehicle(licensePlate, fuelType, liters);
-            ///////////////////////////////////////////////////////////////////////////////////////////////
             Console.WriteLine("Vehicle refueled.");
         }
 
@@ -183,7 +216,7 @@ namespace Ex03.ConsoleUI
             float minutes = float.Parse(Console.ReadLine());
 
             r_GarageManager.RechargeBattery(licensePlate, minutes);
-            ///////////////////////////////////////////////////////////////////////////////////////////////
+            
             Console.WriteLine("Vehicle charged.");
         }
 
@@ -193,7 +226,6 @@ namespace Ex03.ConsoleUI
             string licensePlate = Console.ReadLine();
 
             string details = r_GarageManager.GetVehicleDetails(licensePlate);
-            /////////////////////////////////////////////////////////////////////////////////////////////////
             Console.WriteLine("--- Vehicle Details ---");
             Console.WriteLine(details);
         }
