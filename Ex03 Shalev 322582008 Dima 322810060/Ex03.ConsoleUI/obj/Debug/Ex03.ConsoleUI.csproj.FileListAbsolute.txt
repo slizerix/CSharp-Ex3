@@ -1,0 +1,11 @@
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\bin\Debug\Ex03.ConsoleUI.exe.config
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\bin\Debug\Ex03.ConsoleUI.exe
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\bin\Debug\Ex03.ConsoleUI.pdb
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\bin\Debug\Ex03.GarageLogic.dll
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\bin\Debug\Ex03.GarageLogic.pdb
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\bin\Debug\Ex03.GarageLogic.dll.config
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.AssemblyReference.cache
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\obj\Debug\Ex03.Con.97A6B4C2.Up2Date
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.exe
+C:\Mac\Home\Documents\GitHub\CSharp-Ex3\Ex03 Shalev 322582008 Dima 322810060\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.pdb
