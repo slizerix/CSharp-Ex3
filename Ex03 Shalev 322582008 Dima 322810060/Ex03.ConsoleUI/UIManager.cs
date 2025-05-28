@@ -19,12 +19,20 @@ namespace Ex03.ConsoleUI
         {
             bool shouldExit = false;
 
-            while (shouldExit == false)
+            while (!shouldExit)
             {
-                ShowMainMenu();
-                string userChoice = Console.ReadLine();
-                shouldExit = HandleUserChoice(userChoice);
-                Console.WriteLine();
+                try
+                {
+                    ShowMainMenu();
+                    string userChoice = Console.ReadLine();
+                    shouldExit = HandleUserChoice(userChoice);
+                    Console.WriteLine();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                    Console.WriteLine("Please try again.");
+                }
             }
         }
 
@@ -126,13 +134,68 @@ namespace Ex03.ConsoleUI
             Console.Write("Enter currentAirPressure : ");
             string currentAirPressure = Console.ReadLine();
 
-
-
             // You can expand with additional inputs per type (fuel level, color, wheels, etc.)
             r_GarageManager.CreateAndInsertVehicle(type, licensePlate, model, owner, phone, float.Parse(currentAirPressure), wheelsManufacturer, float.Parse(energyAmount));
 
+            switch (type)
+            {
+                case "ElectricMotorcycle":
+                    Console.Write("Enter license type (A, A2, AB, B2): ");
+                    string licenseTypeInput = Console.ReadLine();
 
-            //SWITCH //////////////////////////////////////////////////////////////////////////////
+                    Console.Write("Enter Engine Volume: ");
+                    string engineVolumeInput = Console.ReadLine();
+
+                    r_GarageManager.SetElectricMotorcycleDetails(licensePlate, licenseTypeInput, float.Parse(engineVolumeInput));
+
+                    break;
+                case "FuelCar":
+                    Console.Write("Enter fuel type (Octan95, Octan96, Octan98, Soler): ");
+                    string fuelTypeInput = Console.ReadLine();
+
+                    Console.Write("Enter car color (Yellow, White, Black, Silver): ");
+                    string carColorInput = Console.ReadLine();
+
+                    Console.Write("Enter number of doors (2, 3, 4, 5): ");
+                    string numOfDoorsInput = Console.ReadLine();
+
+                    r_GarageManager.SetFuelCarDetails(licensePlate, fuelTypeInput, carColorInput, int.Parse(numOfDoorsInput));
+
+                    break;
+                case "FuelMotorcycle":
+                    Console.Write("Enter fuel type (Octan95, Octan96, Octan98, Soler): ");
+                    string FuelTypeInput = Console.ReadLine();
+
+                    Console.Write("Enter license type (A, A2, AB, B2): ");
+                    string LicenseTypeInput = Console.ReadLine();
+
+                    Console.Write("Enter Engine Volume: ");
+                    string EngineVolumeInput = Console.ReadLine();
+
+                    r_GarageManager.SetFuelMotorcycleDetails(licensePlate, FuelTypeInput, LicenseTypeInput, float.Parse(EngineVolumeInput));
+
+                    break;
+                case "Truck":
+                    Console.Write("Is the truck carrying dangerous materials? (true/false): ");
+                    bool isCarryingDangerousMaterials = bool.Parse(Console.ReadLine());
+
+                    Console.Write("Enter cargo volume: ");
+                    string cargoVolumeInput = Console.ReadLine();
+
+                    r_GarageManager.SetTruckDetails(licensePlate, isCarryingDangerousMaterials, float.Parse(cargoVolumeInput));
+
+                    break;
+                case "ElectricCar":
+                    Console.Write("Enter car color (Yellow, White, Black, Silver): ");
+                    string CarColorInput = Console.ReadLine();
+
+                    Console.Write("Enter number of doors (2, 3, 4, 5): ");
+                    string NumOfDoorsInput = Console.ReadLine();
+
+                    r_GarageManager.SetElectricCarDetails(licensePlate, CarColorInput, int.Parse(NumOfDoorsInput));
+
+                    break;
+            }
 
             Console.WriteLine("Vehicle inserted successfully.");
         }

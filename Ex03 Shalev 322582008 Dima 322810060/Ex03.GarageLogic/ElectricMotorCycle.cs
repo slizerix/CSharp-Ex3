@@ -17,7 +17,7 @@ namespace Ex03.GarageLogic
 
         public float EnergyPercentage()
         {
-            return (CurrentAmount / MaxAmount) * 100;
+            return (MaxAmount / CurrentAmount) ;
         }
         public void Recharge(float i_Hours)
         {

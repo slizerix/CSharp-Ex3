@@ -13,7 +13,7 @@ namespace Ex03.GarageLogic
         {
         }
         public LicenseType LicenseType { get; set; }
-        public int EngineVolume { get; set; }
+        public float EngineVolume { get; set; }
 
     }
 }

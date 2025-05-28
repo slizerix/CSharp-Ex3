@@ -226,6 +226,97 @@ namespace Ex03.GarageLogic
             return detailsBuilder.ToString();
         }
 
+        public void SetElectricMotorcycleDetails(string licensePlate, string licenseTypeInput, float engineVolume)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+                throw new KeyNotFoundException("Vehicle not found.");
+
+            Vehicle vehicle = r_Vehicles[licensePlate].Vehicle;
+
+            if (vehicle is ElectricMotorcycle motorcycle)
+            {
+                motorcycle.LicenseType = (LicenseType)Enum.Parse(typeof(LicenseType), licenseTypeInput);
+                motorcycle.EngineVolume = engineVolume;
+            }
+            else
+            {
+                throw new InvalidOperationException("Vehicle is not an electric motorcycle.");
+            }
+        }
+
+        public void SetFuelCarDetails(string licensePlate, string fuelTypeInput, string colorInput, int numOfDoors)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+                throw new KeyNotFoundException("Vehicle not found.");
+
+            Vehicle vehicle = r_Vehicles[licensePlate].Vehicle;
+
+            if (vehicle is FuelCar car)
+            {
+                car.Color = (CarColor)Enum.Parse(typeof(CarColor), colorInput);
+                car.NumOfDoors = numOfDoors;
+                car.FuelType = (FuelType)Enum.Parse(typeof(FuelType), fuelTypeInput);
+            }
+            else
+            {
+                throw new InvalidOperationException("Vehicle is not a fuel car.");
+            }
+        }
+
+        public void SetFuelMotorcycleDetails(string licensePlate, string fuelTypeInput, string licenseTypeInput, float engineVolume)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+                throw new KeyNotFoundException("Vehicle not found.");
+
+            Vehicle vehicle = r_Vehicles[licensePlate].Vehicle;
+
+            if (vehicle is FuelMotorcycle motorcycle)
+            {
+                motorcycle.LicenseType = (LicenseType)Enum.Parse(typeof(LicenseType), licenseTypeInput);
+                motorcycle.EngineVolume = engineVolume;
+                motorcycle.FuelType = (FuelType)Enum.Parse(typeof(FuelType), fuelTypeInput);
+            }
+            else
+            {
+                throw new InvalidOperationException("Vehicle is not a fuel motorcycle.");
+            }
+        }
+
+        public void SetTruckDetails(string licensePlate, bool isHazardous, float cargoVolume)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+                throw new KeyNotFoundException("Vehicle not found.");
+
+            Vehicle vehicle = r_Vehicles[licensePlate].Vehicle;
+
+            if (vehicle is Truck truck)
+            {
+                truck.CarriesHazardousMaterials = isHazardous;
+                truck.CargoVolume = cargoVolume;
+            }
+            else
+            {
+                throw new InvalidOperationException("Vehicle is not a truck.");
+            }
+        }
+
+        public void SetElectricCarDetails(string licensePlate, string colorInput, int numOfDoors)
+        {
+            if (!r_Vehicles.ContainsKey(licensePlate))
+                throw new KeyNotFoundException("Vehicle not found.");
+
+            Vehicle vehicle = r_Vehicles[licensePlate].Vehicle;
+
+            if (vehicle is ElectricCar car)
+            {
+                car.Color = (CarColor)Enum.Parse(typeof(CarColor), colorInput);
+                car.NumOfDoors = numOfDoors;
+            }
+            else
+            {
+                throw new InvalidOperationException("Vehicle is not an electric car.");
+            }
+        }
 
         public void RefuelVehicle(string licensePlate, FuelType fuelType, float litersToAdd)
         {
