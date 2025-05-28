@@ -108,17 +108,31 @@ namespace Ex03.ConsoleUI
             Console.Write("Enter vehicle type (ElectricMotorcycle, FuelCar, FuelMotorcycle, or Truck, ElectricCar): ");
             string type = Console.ReadLine();
 
-            Console.Write("Enter model name: ");
+            Console.Write("Enter model name : ");
             string model = Console.ReadLine();
 
-            Console.Write("Enter owner's name: ");
+            Console.Write("Enter owner's name : ");
             string owner = Console.ReadLine();
 
-            Console.Write("Enter owner's phone: ");
+            Console.Write("Enter owner's phone : ");
             string phone = Console.ReadLine();
 
+            Console.Write("Enter energyAmount : ");
+            string energyAmount = Console.ReadLine();
+
+            Console.Write("Enter wheelsManufacturer : ");
+            string wheelsManufacturer = Console.ReadLine();
+
+            Console.Write("Enter currentAirPressure : ");
+            string currentAirPressure = Console.ReadLine();
+
+
+
             // You can expand with additional inputs per type (fuel level, color, wheels, etc.)
-            r_GarageManager.CreateAndInsertVehicle(type, licensePlate, model, owner, phone);
+            r_GarageManager.CreateAndInsertVehicle(type, licensePlate, model, owner, phone, float.Parse(currentAirPressure), wheelsManufacturer, float.Parse(energyAmount));
+
+
+            //SWITCH //////////////////////////////////////////////////////////////////////////////
 
             Console.WriteLine("Vehicle inserted successfully.");
         }

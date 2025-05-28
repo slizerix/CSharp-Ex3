@@ -13,9 +13,7 @@ namespace Ex03.GarageLogic
         {
         }
 
-        public float CurrentAmount { get; set; }
-
-        public float MaxAmount { get; set; }
+        public override float MaxAmount { get; set; } = 3.2f; // Fixed by overriding the MaxAmount property from Vehicle.  
 
         public float EnergyPercentage()
         {
@@ -27,6 +25,21 @@ namespace Ex03.GarageLogic
                 throw new ValueOutOfRangeException(0, MaxAmount - CurrentAmount, "Charge exceeds capacity.");
 
             CurrentAmount += i_Hours;
+        }
+
+        public override string GetVhicleInfo()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Model Name: {ModelName}");
+            sb.AppendLine($"License Number: {LicenseNumber}");
+            sb.AppendLine($"Current Energy Amount: {CurrentAmount}");
+            sb.AppendLine($"Electric Motorcycle - Energy Percentage: {EnergyPercentage()}%");
+            sb.AppendLine($"License Type: {LicenseType}");
+            sb.AppendLine($"Engine Volume: {EngineVolume}");
+            sb.AppendLine($"Air preassure : {Wheels[0].CurrentAirPressure} Manufacturer : {Wheels[0].Manufacturer}");
+
+            return sb.ToString();
         }
     }
 }

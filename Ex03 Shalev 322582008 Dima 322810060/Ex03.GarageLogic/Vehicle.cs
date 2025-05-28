@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex03.GarageLogic
 {
@@ -10,6 +7,9 @@ namespace Ex03.GarageLogic
     {
         public string ModelName { get; set; }
         public string LicenseNumber { get; set; }
+        public float CurrentAmount { get; set; }
+        public virtual float MaxAmount { get; set; } = 0;
+
         public List<Wheel> Wheels = new List<Wheel>();
 
         public Vehicle(string i_LicenseID, string i_ModelName)
@@ -17,5 +17,7 @@ namespace Ex03.GarageLogic
             LicenseNumber = i_LicenseID;
             ModelName = i_ModelName;
         }
+        public abstract string GetVhicleInfo();
+        
     }
 }

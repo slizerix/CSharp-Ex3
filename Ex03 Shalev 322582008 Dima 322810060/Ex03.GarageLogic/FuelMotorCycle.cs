@@ -12,10 +12,9 @@ namespace Ex03.GarageLogic
         public FuelMotorcycle(string i_LicenseID, string i_ModelName) : base(i_LicenseID, i_ModelName)
         {
         }
+        public FuelType FuelType { get; set; } = FuelType.Octan95;
 
-        public float CurrentAmount { get; set; }
-        public float MaxAmount { get; set; }
-        public FuelType FuelType { get; private set; }
+        public override float MaxAmount { get; set; } = 5.8f; // Fixed by overriding the MaxAmount property from Vehicle.  
         public void Refuel(float i_Amount, FuelType i_Type)
         {
             if (i_Type != FuelType)
@@ -28,6 +27,23 @@ namespace Ex03.GarageLogic
         public float EnergyPercentage()
         {
             return (CurrentAmount / MaxAmount) * 100;
+        }
+
+        //print all vhecile info
+        public override string GetVhicleInfo()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Model Name: {ModelName}");
+            sb.AppendLine($"License Number: {LicenseNumber}");
+            sb.AppendLine($"Current Energy Amount: {CurrentAmount}");
+            sb.AppendLine($"Fuel Motorcycle - Energy Percentage: {EnergyPercentage()}%");
+            sb.AppendLine($"Fuel Type: {FuelType}");
+            sb.AppendLine($"License Type: {LicenseType}");
+            sb.AppendLine($"Engine Volume: {EngineVolume}");
+            sb.AppendLine($"Air preassure : {Wheels[0].CurrentAirPressure} Manufacturer : {Wheels[0].Manufacturer}");
+
+            return sb.ToString();
         }
     }
 }

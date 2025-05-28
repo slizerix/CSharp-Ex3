@@ -15,9 +15,9 @@ namespace Ex03.GarageLogic
 
         public bool CarriesHazardousMaterials { get; set; }
         public float CargoVolume { get; set; }
-        public float CurrentAmount { get; set; }
-        public float MaxAmount { get; set; }
-        public FuelType FuelType { get; private set; }
+        public FuelType FuelType { get; set; } = FuelType.Soler;
+
+        public override float MaxAmount { get; set; } = 135; // Fixed by overriding the MaxAmount property from Vehicle.  
         public void Refuel(float i_Amount, FuelType i_Type)
         {
             if (i_Type != FuelType)
@@ -30,6 +30,24 @@ namespace Ex03.GarageLogic
         public float EnergyPercentage()
         {
             return (CurrentAmount / MaxAmount) * 100;
+        }
+
+        //need to print all availiable info about the vehicle
+        public override string GetVhicleInfo()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Model Name: {ModelName}");
+            sb.AppendLine($"License Number: {LicenseNumber}");
+            sb.AppendLine($"Current Fuel Amount: {CurrentAmount} liters");
+            sb.AppendLine($"Max Fuel Amount: {MaxAmount} liters");
+            sb.AppendLine($"Fuel Type: {FuelType}");
+            sb.AppendLine($"Energy Percentage: {EnergyPercentage()}%");
+            sb.AppendLine($"Carries Hazardous Materials: {CarriesHazardousMaterials}");
+            sb.AppendLine($"Cargo Volume: {CargoVolume} cubic meters");
+            sb.AppendLine($"Air preassure : {Wheels[0].CurrentAirPressure} Manufacturer : {Wheels[0].Manufacturer}");
+
+            return sb.ToString();
         }
     }
 }
