@@ -105,7 +105,7 @@ namespace Ex03.ConsoleUI
                 return;
             }
 
-            Console.Write("Enter vehicle type (ElectricMotorcycle, RegularCar): ");
+            Console.Write("Enter vehicle type (ElectricMotorcycle, FuelCar, FuelMotorcycle, or Truck, ElectricCar): ");
             string type = Console.ReadLine();
 
             Console.Write("Enter model name: ");

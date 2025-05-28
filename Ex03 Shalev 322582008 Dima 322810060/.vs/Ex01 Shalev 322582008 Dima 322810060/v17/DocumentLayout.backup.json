@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C81953A-82E9-4B99-9D7D-EE94958E809E}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|c:\\mac\\home\\documents\\github\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C81953A-82E9-4B99-9D7D-EE94958E809E}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|solutionrelative:ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C81953A-82E9-4B99-9D7D-EE94958E809E}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.consoleui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C81953A-82E9-4B99-9D7D-EE94958E809E}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|c:\\mac\\home\\documents\\github\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.consoleui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C81953A-82E9-4B99-9D7D-EE94958E809E}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|solutionrelative:ex03.consoleui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\mac\\home\\documents\\github\\csharp-ex3\\ex03 shalev 322582008 dima 322810060\\ex03.garagelogic\\garagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.garagelogic\\garagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\garagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.garagelogic\\vehicleingarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehicleingarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C81953A-82E9-4B99-9D7D-EE94958E809E}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C81953A-82E9-4B99-9D7D-EE94958E809E}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|solutionrelative:ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.garagelogic\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.garagelogic\\vehicleingarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehicleingarage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.garagelogic\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.garagelogic\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0F5C48F-7EC2-4ED6-A94D-19DC28DC00F8}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\ex03.garagelogic\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,20 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.ConsoleUI\\Program.cs",
               "RelativeDocumentMoniker": "Ex03.ConsoleUI\\Program.cs",
               "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.ConsoleUI\\Program.cs",
               "RelativeToolTip": "Ex03.ConsoleUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T16:42:33.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ElectricMotorcycle.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\ElectricMotorcycle.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricMotorcycle.cs",
@@ -179,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "VehicleInGarage.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\VehicleInGarage.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\VehicleInGarage.cs",
@@ -187,11 +187,12 @@
               "RelativeToolTip": "Ex03.GarageLogic\\VehicleInGarage.cs",
               "ViewState": "AgIAAAEAAAAIzczMzMwXwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:39:29.777Z"
+              "WhenOpened": "2025-05-20T16:39:29.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Utils.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Utils.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\Utils.cs",
@@ -203,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Wheel.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Wheel.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\Wheel.cs",
@@ -215,13 +216,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.ConsoleUI\\UIManager.cs",
               "RelativeDocumentMoniker": "Ex03.ConsoleUI\\UIManager.cs",
               "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.ConsoleUI\\UIManager.cs",
               "RelativeToolTip": "Ex03.ConsoleUI\\UIManager.cs",
-              "ViewState": "AgIAAAAAAACAmpmZmZkuwNMAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAACAAAAAAVwGYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T15:42:21.6Z",
               "EditorCaption": ""
@@ -240,20 +241,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GarageManager.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\GarageManager.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\GarageManager.cs",
               "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\GarageManager.cs",
               "RelativeToolTip": "Ex03.GarageLogic\\GarageManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAA6v///z8pwIEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T15:41:14.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MotorCycle.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\MotorCycle.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\MotorCycle.cs",
@@ -265,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Car.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\Car.cs",
@@ -277,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\CSharp-Ex3\\Ex03 Shalev 322582008 Dima 322810060\\Ex03.GarageLogic\\Vehicle.cs",
               "RelativeDocumentMoniker": "Ex03.GarageLogic\\Vehicle.cs",
@@ -285,7 +286,8 @@
               "RelativeToolTip": "Ex03.GarageLogic\\Vehicle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:39:28.658Z"
+              "WhenOpened": "2025-05-20T15:39:28.658Z",
+              "EditorCaption": ""
             }
           ]
         }
